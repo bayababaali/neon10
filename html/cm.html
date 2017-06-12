@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Court-Métrage</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+  </head>
+  <body>
+    <section id="cm">
+      <!-- Nav -->
+      <nav class="col-ml-14-23">
+        <ul>
+          <li class="col-pr-1-14"><a href="#ad">Clips - Publicités</a></li>
+          <li class="col-pr-1-14"><a href="#">Courts métrages</a></li>
+          <li><a href="#about">A propos</a></li>
+        </ul>
+      </nav>
+
+
+
+
+      <!-- Slider -->
+      <div class="slider single-item">
+          <div class="container-1" width="100%" height="100%">
+          <iframe id="player" allowfullscreen src="https://www.youtube.com/embed/HAuKK5lEmHg"  heightStr="50px;"></iframe><img src="img/player.png" alt=""></div>
+          <div class="container-2"><iframe id="player" allowfullscreen src="https://www.youtube.com/embed/HAuKK5lEmHg"  ></iframe><img src="img/player.png" alt=""></div>
+          <div class="container-3"><iframe id="player" allowfullscreen src="https://www.youtube.com/embed/HAuKK5lEmHg"  ></iframe><img src="img/player.png" alt=""></div>
+      </div>
+      <button type="button" class="slick-prev slick-arrow" name="button" aria-label="Previous"></button>
+      <button type="button" class="slick-next slick-arrow" name="button" aria-label="Previous"></button>
+
+      <!-- Social media -->
+      <footer>
+          <div class="social-media">
+            <ul class="col-ml-2-23">
+              <li class="col-pr-1-23"><a href="#">Youtube</a></li>
+              <li class="col-pr-1-23"><a href="#">Instagram</a></li>
+              <li class="col-pr-1-23"><a href="#">E-mail</a></li>
+            </ul>
+          </div>
+      </footer>
+
+    </section>
+
+      <script
+      src="http://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+
+      <script
+      type="text/javascript"
+      src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+      <script>
+      $('.single-item').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+      });
+
+
+      </script>
+      <script type="text/javascript" src="js/player.js">
+
+      </script>
+
+</html>
