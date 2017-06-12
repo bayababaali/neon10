@@ -4,39 +4,65 @@
     <meta charset="utf-8">
     <title>Ad</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
   </head>
   <body>
     <section id="ad">
-
-      <!-- Header -->
-      <header>
-        <div class="header">
-              <!--<img src="img/logo.png" alt="Logo" style="width: 40px; height: 40px;"/>-->
-              <!--<div class="social-media">
-                <ul>
-                  <li><a href="#">youtube</a></li>
-                  <li><a href="#">instagram</a></li>
-                </ul>
-              </div>-->
-        </div>
-      </header>
-
       <!-- Nav -->
-      <nav>
+      <nav class="col-ml-14-23">
         <ul>
-          <li><a href="#">Clips - Publicités</a></li>
-          <li><a href="#">Courts métrages</a></li>
-          <li><a href="#">A propos</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="col-pr-1-14"><a href="ad.html">Clips - Publicités</a></li>
+          <li class="col-pr-1-14"><a href="cm.html">Courts métrages</a></li>
+          <li><a href="about.html">A propos</a></li>
         </ul>
       </nav>
 
-      <!-- Artiste -->
-      <div class="artiste">
-        <h1>Tim Dup</h1>
-        <img src="img/timdup.png" alt="Tim Dup">
+
+
+
+      <!-- Slider -->
+      <div class="slider single-item">
+          <div class="container-1">
+
+          </div>
+          <div class="container-2"></div>
+          <div class="container-3"></div>
       </div>
 
-      </section>
-  </body>
+      <!-- Social media -->
+      <footer>
+          <div class="social-media">
+            <ul class="col-ml-2-23">
+              <li class="col-pr-1-23"><a href="https://www.youtube.com/channel/UCir2MHPcnx-zqEgKiAbEtHw">Youtube</a></li>
+              <li class="col-pr-1-23"><a href="https://www.instagram.com/hugopillard/">Instagram</a></li>
+              <li class="col-pr-1-23"><a href="#">E-mail</a></li>
+            </ul>
+          </div>
+      </footer>
+
+    </section>
+
+      <script
+      src="http://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+
+      <script
+      type="text/javascript"
+      src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+      <script>
+      $('.single-item').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+      });
+
+
+
+
+      </script>
+
 </html>
