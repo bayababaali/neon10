@@ -127,11 +127,14 @@ section#ad, section#cm{
 section#ad div.artiste img, section#cm div.artiste img{
   position: relative;
 }
+<<<<<<< HEAD
 section#ad p{
 	font-family: OpenSans;
 	font-size: 16px;
 	color: white;
 }
+=======
+>>>>>>> 7883cc7b1802195b49a8e9e4aa9acdab7d8f1558
 
 
 
@@ -164,18 +167,28 @@ section#cm #player-1{
 	background-size: 100%;
 	background-position: center;
 	position: relative;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7883cc7b1802195b49a8e9e4aa9acdab7d8f1558
 }
 section#cm #player-2{
 	background-image: url(../img/hedera.png);
 	background-size: 100%;
 	background-position: center;
+<<<<<<< HEAD
 	position: relative;
+=======
+>>>>>>> 7883cc7b1802195b49a8e9e4aa9acdab7d8f1558
 }
 section#cm #player-3{
 	background-image: url(../img/meduse.png);
 	background-size: 100%;
 	background-position: center;
+<<<<<<< HEAD
 	position: relative;
+=======
+>>>>>>> 7883cc7b1802195b49a8e9e4aa9acdab7d8f1558
 }
 
 
@@ -184,18 +197,25 @@ section#cm #player-3{
     background-image: url(../img/about.png);
     background-size: 100%;
 		height: 100vh;
+<<<<<<< HEAD
+=======
+		z-index: 0;
+>>>>>>> 7883cc7b1802195b49a8e9e4aa9acdab7d8f1558
   }
   section#about div.about {
   display: flex;
   flex-direction: row;
   margin-top: 100px;
   }
+<<<<<<< HEAD
 	section#about div.bkg{
 	background-color: black;
 	opacity: 0.6;
 	z-index: 5;
 	height: 100vh;
 }
+=======
+>>>>>>> 7883cc7b1802195b49a8e9e4aa9acdab7d8f1558
   /*section#about div.about article.item{
   padding: 40px;
   }
